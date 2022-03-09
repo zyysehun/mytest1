@@ -29,14 +29,16 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
-INSTALLED_APPS = [
+#注册安装自应用
+LED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #'book',方案一
+    'book.apps.ookConfig' #方案二
 ]
 
 MIDDLEWARE = [
